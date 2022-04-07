@@ -1,3 +1,9 @@
 import React from 'react';
+import { Link } from "gatsby";
 
-export default () => <div>Hello Frontend Masters!</div>;
+export default () => 
+<>
+<h1> Hello World !</h1>
+<Link to="/about/">About me &rarr;</Link>
+
+</>;
